@@ -1,4 +1,5 @@
 import dinner  from "./myScript.js"; 
+import {drinks, menuOptions} from   "./myScript.js"; 
 
 // const dinner = require("./myScript.js"); // Importing 
 
@@ -9,4 +10,5 @@ function serveDinner() {
 
 serveDinner(); 
 
-console.log("Hello World");
+console.log(drinks[0]);
+console.log(menuOptions);

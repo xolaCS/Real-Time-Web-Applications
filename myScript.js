@@ -10,4 +10,6 @@ export const runServer = () => {
 
 export default dinner;
 
-export let drinks = ["Water", "Soda", "Beer"]; 
+export let drinks = ["Water", "Soda", "Beer"];
+
+export {dinner as menuOptions}
