@@ -4,4 +4,10 @@ const dinner = {
     dessert: "Ice Cream"
 };
 
-module.exports = dinner;
+export const runServer = () => {
+    console.log(""); 
+}
+
+export default dinner;
+
+export let drinks = ["Water", "Soda", "Beer"]; 
